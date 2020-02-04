@@ -1,0 +1,25 @@
+{
+  "name": "uploadstatic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve1": "nodemon uploadServer.js",
+    "serve2": "nodemon upload.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concat-files": "^0.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "formidable": "^1.2.1",
+    "fs-extra": "^8.1.0",
+    "multer": "^1.4.2",
+    "opn": "^6.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
